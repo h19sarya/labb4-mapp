@@ -1,0 +1,232 @@
+/*  padding: 10%; */
+div.puff-container {
+    width: 80%;
+margin: 10%; 
+background-color: #fff;
+    
+    overflow: hidden;
+    display: flex; 
+    flex-flow: row wrap;
+justify-content: center;
+ 
+    
+}
+
+
+
+
+
+
+.puff-container h2 {
+    font-size: 2rem;
+  
+    color: #000;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+   
+    
+}
+
+p.ingress {
+  
+    padding: 5%;
+    font-size: 1rem;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    color: #000;
+ 
+}
+.puff-container > .puff {
+    width: 33.333%;
+    min-width: 200px;
+    margin-bottom: 20px; 
+    padding: 10px;
+    order: 2;
+    flex-flow: row wrap;
+   
+  
+}
+
+.puff a {
+    text-decoration: none;
+    color: #333;
+   
+    
+}
+
+.puff-container img {
+   
+    display: block;
+    max-width: 100%;
+    
+   
+}
+
+.button {
+    background-color: #000;
+    border: none;
+    color: #fff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    
+    
+  }
+
+  
+
+
+
+.footer {
+    width: 100%;
+    margin: 0px auto 0;
+    background-color:  rgba(000, 000, 0, 0.9);
+    overflow: hidden;
+    display: flex; 
+    flex-flow: row wrap;
+justify-content: center;
+margin-top: 2%;
+text-align:center;
+
+  }
+
+  .footerboxone{
+    margin: 1%;
+    padding: 20px;
+    flex: 1;
+    flex-direction: column;
+    align-content: center;
+    text-align:center;
+    display: inline-flex;
+  }
+
+  .footer p {
+    font-size: 2rem;
+    margin: 0;
+    color: #6fd8ff;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+}
+
+
+  
+  /* When you mouse over the container, fade in the overlay title */
+  .puff:hover .overlay {
+    opacity: 1;
+  }
+
+ .facebook {
+    color: #fff;
+    font-size: 1.5rem;
+    display:inline-block; 
+}
+
+   .facebook a {
+      color: #fff;
+      text-decoration: none;
+  }
+
+   .facebook a:hover {
+    color: #fff;
+ 
+}
+
+.instagram {
+    display:inline-block; 
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+   .instagram a {
+      color: #fff;
+      text-decoration: none;
+  }
+
+   .instagram a:hover {
+    color: #fff;
+ 
+}
+
+.twitter {
+    display:inline-block; 
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+   .twitter a {
+      color: #fff;
+      text-decoration: none;
+  }
+
+   .twitter a:hover {
+    color: #fff;
+ 
+}
+
+
+
+
+/* Media query for medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    /* changing font-size for tablet screen size*/
+    .puff-container h2{
+        font-size: 1.1rem;
+    }
+    .puff-container h1 {
+        font-size: 1.7rem;
+    }
+    p.ingress {
+        font-size: 0.9rem;
+    }
+    .puff p{
+        font-size: 0.9rem;
+    }
+}
+
+/* Media query for targetting small devices only (landscape phones only) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    /* changing font-size for landscape screen size*/
+    .puff-container h2{
+        font-size: 1rem;
+    }
+    .puff-container h1 {
+        font-size: 1.5rem;
+    }
+    p.ingress {
+        font-size: 0.8rem;
+    }
+    .puff p{
+        font-size: 0.8rem;
+    }
+    /* displaying content of puff-container in TWO columns for landscape screen size */
+    .puff-container > .puff {
+        width: 50%;
+        margin-bottom: 10px; 
+    }
+}
+
+/* Media query for targetting extra small devices only (portrait phones only, less than 576px) */
+@media (max-width: 575.98px) {
+    /* changing font-size for portrait screen size*/
+    .puff-container h2{
+        font-size: 1rem;
+        margin: 0.7rem 0;
+    }
+    .puff-container h1 {
+        font-size: 1.5rem;
+    }
+    p.ingress {
+        font-size: 0.8rem;
+    }
+    .puff p{
+        font-size: 0.8rem;
+    }
+    /* displaying content of puff-container in ONE column for portrait screen size */
+    .puff-container > .puff {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+ }

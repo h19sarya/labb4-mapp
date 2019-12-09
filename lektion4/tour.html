@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lektion 4</title>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/tour.css">
+    <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Reenie+Beanie&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <!-- this is the menu (nav) for the desktop screen size, add class name to be able to manage its visibility -->
+        <nav class="desktop_menu">
+            <ul>
+                <li>
+
+                        <a href="band.html">BAND</a>
+                   
+                </li>
+                <li>
+                    <a href="news.html">NEWS</a>
+                </li>
+                <li>
+                        <a class="active">TOUR INFO</a>
+                </li>
+                <li>
+                    <a href="merchandise.html">MERCHANDISE</a>
+                </li>
+
+
+               
+                <li class="righty">
+                        <a href="home.html">HOME</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!--added this menu (nav) that is hidden for desktop and tablet screen sizes, it is displayed for mobile devices both portrait and landscape-->
+        <div class="mobile_menu">
+            <!-- this menu uses a CSS hack to be able to mimic the use of an "onClick" method but without using JavaScript, it is purely done in CSS-->
+            <!-- the button is visible -->
+            <button>☰ Menu</button>
+            <!-- the list of menu items is only displayed when the button is "clicked" -->
+            <nav class="menu">
+                    <ul>
+                            <li>
+            
+                                    <a href="band.html">BAND</a>
+                               
+                            </li>
+                            <li>
+                                <a href="news.html">NEWS</a>
+                            </li>
+                            <li>
+                                    <a class="active">TOUR INFO</a>
+                            </li>
+                            <li>
+                                <a href="merchandise.html">MERCHANDISE</a>
+                            </li>
+            
+            
+                           
+                            <li class="righty">
+                                    <a href="home.html">HOME</a>
+                            </li>
+                        </ul>
+            </nav>
+        </div>
+
+
+    </header>
+    <aside class="bildcontainer"><img src="images/adaytorememberlogo.png" /></aside>
+
+    <div class="ovanfor">
+            <p>Upcoming tours!
+                <br>
+                <i class="fa fa-arrow-circle-down"></i>
+            </p>
+    </div>
+    <div class="puff-container">
+
+
+
+
+        <aside class="puff">
+        <p class="ingress">
+            Mar 27, 2020
+               </p>
+           
+                    <p class="ingresstwo">O'Higgins Park
+
+                    </p>
+                    <br>  <p class="ingress">Santiago, Chile</p>
+            
+        </aside>
+
+        <aside class="puff">
+                <p class="ingress">
+                    Mar 27, 2020
+                       </p>
+                   
+                            <p class="ingresstwo">Hipodromobde San Isidro
+        
+                            </p>
+                            <br>  <p class="ingress">San Isidro, Argentina</p>
+                </aside>
+
+
+                <aside class="puff">
+                        <p class="ingress">
+                            April 3, 2020
+                               </p>
+                           
+                                    <p class="ingresstwo">Interlagos
+                
+                                    </p>
+                                    <br>  <p class="ingress">São Paulo, Brazil</p>
+                            
+                        </aside>
+
+    </div>
+
+    
+                
+               
+
+</body>
+
+</html>
